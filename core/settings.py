@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-pt&u1+ztyf-^c5k*!9wh%^@o24z3td9j5r#7k)abyc^h_u=3_@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "localhost",
+    "127.0.0.1",
+    "crm-backend-um64.onrender.com",
+]
 
 
 # Application definition
