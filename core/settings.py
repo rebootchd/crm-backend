@@ -71,9 +71,15 @@ REST_FRAMEWORK = {
 
 
 
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:3000", "http://127.0.0.1:3000"  # React dev server
+# ]
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000", "http://127.0.0.1:3000"  # React dev server
+    "https://fhjygjhgjmg.netlify.app",
 ]
+
+
+
 
 ROOT_URLCONF = 'core.urls'
 
